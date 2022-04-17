@@ -1,0 +1,6 @@
+﻿  UnitTest3.cpp
+     Creating library C:\Users\vikto\source\repos\1.4\Debug\UnitTest3.lib and object C:\Users\vikto\source\repos\1.4\Debug\UnitTest3.exp
+UnitTest3.obj : error LNK2019: unresolved external symbol "double __cdecl GetX(void)" (?GetX@@YANXZ) referenced in function "public: void __thiscall UnitTest3::UnitTest1::TestMethod1(void)" (?TestMethod1@UnitTest1@UnitTest3@@QAEXXZ)
+    Hint on symbols that are defined and could potentially match:
+      "public: double __thiscall Complex::GetX(void)const " (?GetX@Complex@@QBENXZ)
+C:\Users\vikto\source\repos\1.4\Debug\UnitTest3.dll : fatal error LNK1120: 1 unresolved externals
